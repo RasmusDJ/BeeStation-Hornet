@@ -1520,6 +1520,11 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 	use_default_gender = NEUTER
 	use_default = FALSE
 
+/datum/sprite_accessory/underwear/censorbar_bottom
+	name = "Censor bar"
+	icon_state = "censorbar_bottom"
+	use_default_gender = NEUTER
+
 /datum/sprite_accessory/underwear/male_briefs
 	name = "Men's Briefs"
 	icon_state = "male_briefs"
@@ -1697,6 +1702,11 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 	name = "Nude"
 	icon_state = null
 	use_default_gender = NEUTER
+
+/datum/sprite_accessory/undershirt/censorbar_top
+	name = "Censor bar"
+	icon_state = "censorbar_top"
+	use_default_gender = FEMALE
 
 // please make sure they're sorted alphabetically and categorized
 
